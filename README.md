@@ -1,8 +1,8 @@
-## ESPHome configuration for Growatt SPF 5000 ES off-grid inverter
+# ESPHome configuration for Growatt SPF 5000 ES off-grid inverter
 Please check [Growatt OffGrid SPF5000 Modbus RS485 RTU Protocol](https://www.scribd.com/document/563236514/Growatt-OffGrid-SPF5000-Modbus-RS485-RTU-Protocol) 
 for more information about Growatt Modbus RS485 protocol and map of registers provided by the inverter.  
 
-### Features
+## Features
 * Independent graphical ui with web server component
 * Auto-discovery by Home Assistant
 * All sensors and actions available for HA (easy use within automations)
@@ -12,7 +12,7 @@ for more information about Growatt Modbus RS485 protocol and map of registers pr
 * All inverter's states are mapped and reported correctly by sensor
 * Once the dongle is flashed with ESPHome the updates can be easily done over WiFi
 
-### Implemented holding registers:
+## Implemented holding registers:
 ```
 Register  Description
       00  Standby On/Off and AC Output enable/disable
@@ -31,7 +31,7 @@ Register  Description
       95  AC switch to Battery (AC2b)
 ```
 
-### Time synchronization with Home Assistant  
+## Time synchronization with Home Assistant  
 Realized in 2 manners:
 
 * on-demand with **button** component
@@ -49,7 +49,7 @@ Register  Description
       50  System time Second
 ```
 
-### Implemented input registers:
+## Implemented input registers:
 ```
 Register  Description
       01  PV Voltage
@@ -85,7 +85,7 @@ Register  Description
       82  Inverter fan speed
 ```
 
-### Screenshots
+## Screenshots
 ![web server component](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/0dac1202b7430d5de75a397b19860dbb710c2384/images/ha1.png  
 ![home assistant integration1](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/0dac1202b7430d5de75a397b19860dbb710c2384/images/ha2.png)  
 ![home assistant integration2](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/0dac1202b7430d5de75a397b19860dbb710c2384/images/webserver.png)  
