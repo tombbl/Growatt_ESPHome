@@ -33,29 +33,55 @@ Register  Description
 ### Time synchronization with Home Assistant  
 Realized in 2 manners:
 
-- on-demand with **button** component
-- auto sync at 11:55 AM/PM
+* on-demand with **button** component
+* auto sync at 11:55 AM/PM  
 
-On synchronization the following holding registers are written: 
+On synchronization the following holding registers are written:  
 
-| Register | Description |
-|:------- |:------------|
-|45 | System time Year
-|46 | System time Month
-|47 | System time Day
-|48 | System time Hour
-|49 | System time Minute
-|50 | System time Second
-
+```
+Register  Description
+      45  System time Year
+      46  System time Month
+      47  System time Day
+      48  System time Hour
+      49  System time Minute
+      50  System time Second
+```
 
 ### Implemented input registers:
-| Register | Description |
-|:------- |:------------|
-|40| Fault bit
-|41| Warning bit
-|19| Bus voltage
-|35| Inverting current
-|82| Inverter fan speed
-|25| Inverter temperature
-|32| PV temperature
-|26| DC-DC temperature
+```
+Register  Description
+      40  Fault bit
+      41  Warning bit
+      19  Bus voltage
+      35  Inverting current
+      82  Inverter fan speed
+      25  Inverter temperature
+      32  PV temperature
+      26  DC-DC temperature
+      21  AC Input Hz
+      20  AC Input Voltage
+      68  AC Charge Batt Current
+      13  AC Charge Watt
+      36  AC Input Watt
+      56  AC Charge Energy Today
+      58  AC Charge Energy Total
+      64  AC Discharge Energy Today
+      66  AC Discharge Energy Total
+      09  Output Active Power
+      22  AC Output Voltage
+      23  AC Output Frequency
+      34  AC Output Current
+      01  PV Voltage
+      03  PV Charge Power
+      07  PV Current
+      48  PV Energy Today
+      50  PV Energy Total
+      17  Battery Voltage (M3)
+      18  Battery SoC
+      60  Battery Discharge Energy Today
+      62  Battery Discharge Energy Total
+      73  Battery Discharge Watt
+```
+
+```
