@@ -84,4 +84,7 @@ Register  Description
       73  Battery Discharge Watt
 ```
 
-```
+### Screenshots
+![web server component](https://github.com/tombbl/Growatt_ESPHome/blob/main/webserver.png)  
+![home assistant integration1](https://github.com/tombbl/Growatt_ESPHome/blob/main/ha1.png)  
+![home assistant integration2](https://github.com/tombbl/Growatt_ESPHome/blob/main/ha2.png)  
