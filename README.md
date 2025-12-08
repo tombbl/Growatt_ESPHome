@@ -86,6 +86,6 @@ Register  Description
 ```
 
 ### Screenshots
-![web server component](https://github.com/tombbl/Growatt_ESPHome/blob/main/webserver.png)  
-![home assistant integration1](https://github.com/tombbl/Growatt_ESPHome/blob/main/ha1.png)  
-![home assistant integration2](https://github.com/tombbl/Growatt_ESPHome/blob/main/ha2.png)  
+![web server component](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/0dac1202b7430d5de75a397b19860dbb710c2384/images/ha1.png  
+![home assistant integration1](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/0dac1202b7430d5de75a397b19860dbb710c2384/images/ha2.png)  
+![home assistant integration2](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/0dac1202b7430d5de75a397b19860dbb710c2384/images/webserver.png)  
