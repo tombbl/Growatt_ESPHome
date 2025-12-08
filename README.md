@@ -24,6 +24,7 @@ Register  Description
       19  Output Frequency Type
       20  Over Load Restart
       21  Over Temperature Restart
+      22  Buzzer Enable/Disable
       37  Battery low voltage switch to Uti (b2AC)
       38  AC charge current
       82  Battery voltage low cut-off
@@ -51,37 +52,37 @@ Register  Description
 ### Implemented input registers:
 ```
 Register  Description
-      40  Fault bit
-      41  Warning bit
-      19  Bus voltage
-      35  Inverting current
-      82  Inverter fan speed
-      25  Inverter temperature
-      32  PV temperature
-      26  DC-DC temperature
-      21  AC Input Hz
-      20  AC Input Voltage
-      68  AC Charge Batt Current
-      13  AC Charge Watt
-      36  AC Input Watt
-      56  AC Charge Energy Today
-      58  AC Charge Energy Total
-      64  AC Discharge Energy Today
-      66  AC Discharge Energy Total
-      09  Output Active Power
-      22  AC Output Voltage
-      23  AC Output Frequency
-      34  AC Output Current
       01  PV Voltage
       03  PV Charge Power
       07  PV Current
-      48  PV Energy Today
-      50  PV Energy Total
+      09  Output Active Power
+      13  AC Charge Watt
       17  Battery Voltage (M3)
       18  Battery SoC
+      19  Bus voltage
+      20  AC Input Voltage
+      21  AC Input Hz
+      22  AC Output Voltage
+      23  AC Output Frequency
+      25  Inverter temperature
+      26  DC-DC temperature
+      32  PV temperature
+      34  AC Output Current
+      35  Inverting current
+      36  AC Input Watt
+      40  Fault bit
+      41  Warning bit
+      48  PV Energy Today
+      50  PV Energy Total
+      56  AC Charge Energy Today
+      58  AC Charge Energy Total
       60  Battery Discharge Energy Today
       62  Battery Discharge Energy Total
+      64  AC Discharge Energy Today
+      66  AC Discharge Energy Total
+      68  AC Charge Batt Current
       73  Battery Discharge Watt
+      82  Inverter fan speed
 ```
 
 ### Screenshots
