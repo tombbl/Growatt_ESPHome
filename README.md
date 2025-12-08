@@ -1,10 +1,8 @@
 ## ESPHome configuration for Growatt SPF 5000 ES off-grid inverter
----
 Please check [Growatt OffGrid SPF5000 Modbus RS485 RTU Protocol](https://www.scribd.com/document/563236514/Growatt-OffGrid-SPF5000-Modbus-RS485-RTU-Protocol) 
 for more information about Growatt Modbus RS485 protocol and map of registers provided by the inverter.  
 
 ### Features
----
 * Independent graphical ui with web server component
 * Auto-discovery by Home Assistant
 * All sensors and actions available for HA (easy use within automations)
@@ -33,7 +31,6 @@ Register  Description
 ```
 
 ### Time synchronization with Home Assistant  
-
 Realized in 2 manners:
 
 - on-demand with **button** component
@@ -52,7 +49,6 @@ On synchronization the following holding registers are written:
 
 
 ### Implemented input registers:
----
 | Register | Description |
 |:------- |:------------|
 |40| Fault bit
