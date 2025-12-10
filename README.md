@@ -75,7 +75,11 @@ Register  Description
 ```
 
 ## Screenshots
-As Home Assistant integration:  
-![home assistant integration](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/integration.png)  
-Standalone web server:  
-![web server component](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/webserver.png)  
+#### As Home Assistant integration:  
+![home assistant integration](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/integration.png)
+
+#### Standalone web server:
+
+
+
+![web server component](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/webserver.png)
