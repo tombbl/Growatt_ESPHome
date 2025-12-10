@@ -2,18 +2,9 @@
 Please check [Growatt OffGrid SPF5000 Modbus RS485 RTU Protocol](https://www.scribd.com/document/563236514/Growatt-OffGrid-SPF5000-Modbus-RS485-RTU-Protocol) 
 for more information about Growatt Modbus RS485 protocol and map of registers provided by the inverter.  
 
-## Features
-* Independent graphical ui with web server component
-* Auto-discovery by Home Assistant
-* All sensors and actions available for HA (easy use within automations)
-* Plenty of inverter parameters available
-* Auto time synchronization with Home Assistant
-* LED conigured
-* All inverter's states are mapped and reported correctly by sensor
-* Once the dongle is flashed with ESPHome the updates can be easily done over WiFi
-
-## Implemented holding registers:
+## Implemented registers:
 ```
+Holding
 Register  Description
       00  Standby On/Off and AC Output enable/disable
       01  AC output set
@@ -29,28 +20,8 @@ Register  Description
       38  AC charge current
       82  Battery voltage low cut-off
       95  AC switch to Battery (AC2b)
-```
 
-## Time synchronization with Home Assistant  
-Realized in 2 manners:
-
-* on-demand with **button** component
-* auto sync at 11:55 AM/PM  
-
-On synchronization the following holding registers are written:  
-
-```
-Register  Description
-      45  System time Year
-      46  System time Month
-      47  System time Day
-      48  System time Hour
-      49  System time Minute
-      50  System time Second
-```
-
-## Implemented input registers:
-```
+Input
 Register  Description
       01  PV Voltage
       03  PV Charge Power
@@ -85,6 +56,26 @@ Register  Description
       82  Inverter fan speed
 ```
 
+## Time synchronization with Home Assistant  
+Realized in 2 manners:
+
+* on-demand with **button** component
+* auto sync at 11:55 AM/PM  
+
+On synchronization the following holding registers are written:  
+
+```
+Register  Description
+      45  System time Year
+      46  System time Month
+      47  System time Day
+      48  System time Hour
+      49  System time Minute
+      50  System time Second
+```
+
 ## Screenshots
-![web server component](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/webserver.png)  
+As Home Assistant integration:  
 ![home assistant integration](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/integration.png)  
+Standalone web server:  
+![web server component](https://raw.githubusercontent.com/tombbl/Growatt_ESPHome/refs/heads/main/images/webserver.png)  
